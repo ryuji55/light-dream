@@ -6,7 +6,7 @@ import { Example } from "./example";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/user" element={<User />} />
+      <Route path="/" element={<User />} />
       <Route path="/example" element={<Example />} />
     </Routes>
   );
